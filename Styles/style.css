@@ -72,11 +72,11 @@ main{
     display: flex;
     gap: 300px;
     justify-content: center;
-    margin-top: 360px;
+    margin-top: 240px;
 }
 
 .my-success, .my-failures{
-    width:850px
+    width:850px;
 }
 
 i{
@@ -94,7 +94,7 @@ i{
 /* My Plans */
 
 .my-plans{
-    margin-top: 360px;
+    margin-top: 240px;
 }
 
 .plans-container{
@@ -108,7 +108,6 @@ i{
 }
 
 .plans{
-    display: block;
     font-weight: 600;
     font-size: 40px;
 }
@@ -116,23 +115,23 @@ i{
 /* Positive Mindset */
 
 .positive-mindset{
-    margin-top: 360px;
+    margin-top: 240px;
     background-image: url('../images/gradient3.png'), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
-    margin-bottom: 360px;
+    margin-bottom: 240px;
 }
 
 .positive-mindset-content{
-    padding-top:40px;
-    padding-left: 45px;
-    padding-bottom: 40px;
+    padding-top:50px;
+    padding-left: 60px;
+    padding-bottom: 50px;
 }
 
 .btn-2{
         color: orangered;
-        font-weight: 500;
+        font-weight: 800;
         font-size: 35px;
         text-align: center;
         padding: 20px 30px;
@@ -140,4 +139,35 @@ i{
         border-radius: 8px;
         background-color: aliceblue;
         height: 100px;
+}
+
+/* Footer Section */
+
+.footer-container{
+    display: flex;
+    gap: 500px;
+    justify-content: space-between;
+    padding: 240px;
+    background-color: black;
+}
+
+.footer{
+    padding-left: 10px;
+}
+
+.links{
+    border: #FFF8F3;
+    border-radius: 50%;
+    text-decoration: none;
+    display: flex;
+    gap: 24px;
+    justify-content: left;
+}
+input{
+    margin-bottom: 40px;
+    border: 0 ;
+    width: 100%;
+    padding: 18px 30px;
+    font-size: 20px;
+    border-radius: 8px;
 }
