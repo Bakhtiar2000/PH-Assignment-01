@@ -48,7 +48,7 @@
 /* main section */
 
 main{
-    max-width: 1640px;
+    max-width: 2040px;
     margin: 0 auto;
 }
 
@@ -111,4 +111,33 @@ i{
     display: block;
     font-weight: 600;
     font-size: 40px;
+}
+
+/* Positive Mindset */
+
+.positive-mindset{
+    margin-top: 360px;
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 360px;
+}
+
+.positive-mindset-content{
+    padding-top:40px;
+    padding-left: 45px;
+    padding-bottom: 40px;
+}
+
+.btn-2{
+        color: orangered;
+        font-weight: 500;
+        font-size: 35px;
+        text-align: center;
+        padding: 20px 30px;
+        border: 0;
+        border-radius: 8px;
+        background-color: aliceblue;
+        height: 100px;
 }
