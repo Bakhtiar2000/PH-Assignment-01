@@ -17,7 +17,6 @@
 }
 
 .header-container{
-   
     margin-right: 200px; 
 
 }
@@ -120,7 +119,7 @@ i{
 
 .positive-mindset{
     margin-top: 160px;
-    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    background-image: linear-gradient(90deg, #da501a 0%, rgba(241, 91, 34, 0) 100%), url('../images/watch.png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 8px;
