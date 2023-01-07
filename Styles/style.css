@@ -13,15 +13,12 @@
     height: 950px;
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 
 .header-container{
-    /* padding-top: 245px;
-    padding-bottom: 140px;
-    padding-left: 600px;
-    padding-right: 212px; */
-    margin-top: 250px;
-    margin-right: 250px;
+   
+    margin-right: 200px; 
 
 }
 
