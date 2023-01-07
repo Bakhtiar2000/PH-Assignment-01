@@ -11,13 +11,18 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 950px;
+    display: flex;
+    justify-content: end;
 }
 
 .header-container{
-    padding-top: 245px;
+    /* padding-top: 245px;
     padding-bottom: 140px;
-    padding-left: 960px;
-    padding-right: 340px;
+    padding-left: 600px;
+    padding-right: 212px; */
+    margin-top: 250px;
+    margin-right: 250px;
+
 }
 
 .header-title{
